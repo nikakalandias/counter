@@ -33,6 +33,7 @@ class SecondViewController: UIViewController {
             let alert = UIAlertController(title: "⭐", message: "Your score; 100! Congratulations!", preferredStyle: UIAlertController.Style.alert)
             
             let okButton = UIAlertAction(title: "Ok, cool!", style: UIAlertAction.Style.default, handler: nil)
+            
             alert.addAction(okButton)
             
             self.present(alert, animated: true, completion: nil)

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var score: UILabel!
     
+    @IBOutlet weak var `try`: UILabel!
+    
     var scoreV1 = 0
     
     
@@ -26,6 +28,11 @@ class ViewController: UIViewController {
          
         scoreV1 = scoreV1 + 1
         score.text = "Your Score:   \(scoreV1)"
+        if scoreV1 == 10 {
+            
+            performSegue(withIdentifier: "toSecondVC", sender: nil)
+            
+        }
         
     }
     
@@ -33,12 +40,6 @@ class ViewController: UIViewController {
         
         scoreV1 = 0
         score.text = "Your Score:   \(scoreV1)"
-    }
-    
-    @IBAction func secondPage(_ sender: Any) {
-        
-        performSegue(withIdentifier: "toSecondVC", sender: nil)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
