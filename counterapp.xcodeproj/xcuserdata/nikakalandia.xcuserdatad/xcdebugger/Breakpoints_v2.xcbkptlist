@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D3DDB490-3772-4A18-8548-CFC61989F2CC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "counterapp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE - a8f6b6954063c243"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "counterapp.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; counterapp.ViewController"
+                  moduleName = "counterapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikakalandia/Desktop/NikaProject/counterapp/counterapp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE - ce16cdd3913f994c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "counterapp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; counterapp.ViewController"
+                  moduleName = "counterapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikakalandia/Desktop/NikaProject/counterapp/counterapp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE - c8a6ceffcff71f90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "counterapp.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;counterapp.ViewController&gt;"
+                  moduleName = "counterapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikakalandia/Desktop/NikaProject/counterapp/counterapp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE - 237478b9c9425cd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "counterapp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;counterapp.ViewController&gt;"
+                  moduleName = "counterapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikakalandia/Desktop/NikaProject/counterapp/counterapp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "134">
+               </Location>
+               <Location
+                  uuid = "1BBC9CEF-4C21-46A0-AA7A-57AA8DA94DCE - d90a9db031689fd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "counterapp.ViewController.__deallocating_deinit"
+                  moduleName = "counterapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikakalandia/Desktop/NikaProject/counterapp/counterapp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
