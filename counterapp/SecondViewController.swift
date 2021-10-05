@@ -48,7 +48,7 @@ class SecondViewController: UIViewController {
         score.text = "Your Score:   \(score1)"
         
     }
-    
-    
+
+
     
 }

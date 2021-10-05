@@ -69,6 +69,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't forget, you have only 10 seconds!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvr-5y-jWh">
+                                <rect key="frame" x="29" y="584" width="354" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time; 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2p8-59-Qu2">
+                                <rect key="frame" x="122" y="282" width="171" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -91,8 +106,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="JDj-Qn-ZoT"/>
                     <connections>
+                        <outlet property="forgetLabel" destination="Jvr-5y-jWh" id="pGL-0a-ZVX"/>
                         <outlet property="headLine" destination="b4e-3L-ay5" id="pKL-Ij-7Ve"/>
                         <outlet property="score" destination="O8d-KC-hoK" id="lKl-7w-e9O"/>
+                        <outlet property="timer" destination="2p8-59-Qu2" id="qHl-w4-BzB"/>
                         <outlet property="try" destination="e2r-f6-FnB" id="eji-yC-K3e"/>
                         <segue destination="snz-GW-Ney" kind="show" identifier="toSecondVC" id="nHd-ms-zZ0"/>
                     </connections>
